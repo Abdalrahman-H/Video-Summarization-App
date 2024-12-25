@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import { Box, Button } from '@mui/material';
 
 function App() {
+       const routes = createHashRouter{
   return (
     <Router basename="/Video-Summary-App">
       <Box sx={{ flexGrow: 1 }}>
