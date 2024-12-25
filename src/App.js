@@ -1,11 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import SignUp from './sign-up/SignUp';
 import SignIn from './sign-in/SignIn';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import { Box } from '@mui/material';
+import { Box, Button } from '@mui/material';
+
 function App() {
   return (
     <Router basename="/Video-Summary-App">
@@ -15,16 +16,15 @@ function App() {
             <Typography variant="h6" sx={{ flexGrow: 1 }}>
               Video Summarization
             </Typography>
-            {/* <Button color="inherit" component={Link} to="/signup">
+            <Button color="inherit" component={Link} to="/signup">
               Sign Up
             </Button>
             <Button color="inherit" component={Link} to="/signin">
               Sign In
-            </Button> */}
+            </Button>
           </Toolbar>
         </AppBar>
 
-        {/*Define Routes Path*/}
         <Routes>
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signin" element={<SignIn />} />
