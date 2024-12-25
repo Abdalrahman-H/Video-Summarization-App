@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Video-Aummary-App/src/app.js/static/css/main.e6c13ad2.css",
-    "main.js": "/Video-Aummary-App/src/app.js/static/js/main.91e7e9c2.js",
+    "main.js": "/Video-Aummary-App/src/app.js/static/js/main.33e07ba8.js",
     "static/js/488.9b7f1a9a.chunk.js": "/Video-Aummary-App/src/app.js/static/js/488.9b7f1a9a.chunk.js",
     "index.html": "/Video-Aummary-App/src/app.js/index.html",
     "main.e6c13ad2.css.map": "/Video-Aummary-App/src/app.js/static/css/main.e6c13ad2.css.map",
-    "main.91e7e9c2.js.map": "/Video-Aummary-App/src/app.js/static/js/main.91e7e9c2.js.map",
+    "main.33e07ba8.js.map": "/Video-Aummary-App/src/app.js/static/js/main.33e07ba8.js.map",
     "488.9b7f1a9a.chunk.js.map": "/Video-Aummary-App/src/app.js/static/js/488.9b7f1a9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.91e7e9c2.js"
+    "static/js/main.33e07ba8.js"
   ]
 }
