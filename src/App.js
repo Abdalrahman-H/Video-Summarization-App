@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import { Box } from '@mui/material';
 function App() {
   return (
-    <Router>
+    <Router basename="/Video-Summary-App">
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static" sx={{ marginBottom: 1 }}>
           <Toolbar>
